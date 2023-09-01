@@ -1,0 +1,13 @@
+const data = new Date(2023,6,7)
+console.log(data.toString())
+
+const data1 = new Date()
+console.log("Dia", data1.getDate())
+console.log("Mês", data1.getMonth() + 1)
+console.log("Ano", data1.getFullYear())
+console.log("Hora", data1.getHours())
+console.log("Min", data1.getMinutes())
+console.log("Seg", data1.getSeconds())
+console.log("ms", data1.getMilliseconds())
+console.log("Dia semana ", data1.getDay())
+console.log(data1.toString())
