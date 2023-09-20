@@ -37,6 +37,3 @@ class ValidaCPF {
         return this.novoCPF === this.cpfLimpo;
     }
 }
-
-const Validacpf = new ValidaCPF('070.987.720-03');
-
